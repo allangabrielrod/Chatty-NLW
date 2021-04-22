@@ -1,4 +1,3 @@
-import { Request, Response } from "express";
 import { getCustomRepository, Repository } from "typeorm";
 import { Message } from "../entities/Message";
 import { MessagesRepository } from "../repositories/MessagesRepository";
